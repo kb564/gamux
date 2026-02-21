@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Testing / Coverage
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+
+# AI session artifacts
+.ai/
+.claude/
+config/
+.captures/
+.sessions/
+CLAUDE.md
+tools/
+
+# Local dev config
+.mcp.json
+
+# Editor / OS
+.DS_Store
+*.swp
+*.swo
+.worktrees/
